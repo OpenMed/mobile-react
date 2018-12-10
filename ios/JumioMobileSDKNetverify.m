@@ -106,7 +106,7 @@ RCT_EXPORT_METHOD(enableEMRTD) {
     //if (![customization isEqual:[NSNull null]]) {
         //for (NSString *key in customization) {
             //if ([key isEqualToString: @"disableBlur"]) {
-                [[NetverifyBaseView netverifyAppearance] setDisableBlur: @YES];
+                //[[NetverifyBaseView netverifyAppearance] setDisableBlur: @YES];
             //} else {
               #define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
               // Below you find the corresponding settings to your changes on the

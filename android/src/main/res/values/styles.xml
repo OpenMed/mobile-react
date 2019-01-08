@@ -3,7 +3,7 @@
 
  <!-- color variables -->
 
- <color name="CustomAndroidBackground"></color>
+ <color name="CustomAndroidBackground">@android:color/transparent</color>
 
  <!-- base application theme -->
 

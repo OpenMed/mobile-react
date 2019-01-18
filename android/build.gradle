@@ -15,7 +15,15 @@ repositories {
     maven { url 'https://mobile-sdk.jumio.com' }
 }
 
-
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:3.1.4"
+    }
+}
 
 dependencies {
     implementation "com.jumio.android:core:${SDK_VERSION}@aar"
